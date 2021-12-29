@@ -40,10 +40,12 @@ const useStyles = makeStyles((theme) => {
     title: { padding: theme.spacing(2) },
     appbar:{
             width: `calc(100% - ${drawerWidth}px)`,
-            margin: "0 auto"
     },
     toolbar: theme.mixins.toolbar,
-    date:{flexGrow: 1},
+    date:{
+      flexGrow: 3,
+      marginLeft: "15rem"
+    },
 
   };
 });
@@ -69,8 +71,8 @@ const Layout = ({ children }) => {
   return (
     <div className={classes.root}>
       {/* App bar */}
-      <AppBar classes={classes.appbar} elevation={1}>
-        <Toolbar>
+      <AppBar  elevation={1}>
+        <Toolbar classes={classes.appbar}>
                 <Typography variant="body2" className={classes.date}>Today is the {format(new Date(), "do MMMM Y")}</Typography>
                 <Typography variant="body2">Mario</Typography>
         </Toolbar>

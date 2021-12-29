@@ -17,12 +17,6 @@
       "details": "I want to demonstrate the email application using the spring boot MVC in that web application I follow this tutorial I can easily send the emails using spring boot.\n\nHere my question is\n\nhow can I read the emails using spring boot..?\nhow can I listen for new emails and how to update the inbox on the view..?\nplease suggest me any solutions for that because I searched a lot but I can find only send email example.please share me if you have any working samples for that using spring boot. Thanks in advance.\n\n",
       "category": "todos",
       "id": 3
-    },
-    {
-      "title": "Desiderata",
-      "details": "GO PLACIDLY amid the noise and the haste, and remember what peace there may be in silence. As far as possible, without surrender, be on good terms with all persons.\n\nSpeak your truth quietly and clearly; and listen to others, even to the dull and the ignorant; they too have their story.\n\nAvoid loud and aggressive persons; they are vexatious to the spirit. If you compare yourself with others, you may become vain or bitter, for always there will be greater and lesser persons than yourself.\n\nEnjoy your achievements as well as your plans. Keep interested in your own career, however humble; it is a real possession in the changing fortunes of time.",
-      "category": "work",
-      "id": 4
     }
   ]
 }
